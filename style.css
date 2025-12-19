@@ -1,0 +1,97 @@
+body{
+    background-color: #ebe8eb;
+    width: 100%;
+    height: 1000px;
+    margin: 0%;
+}
+.Cabesalho {
+    background: linear-gradient(to right, #111826, #3b5d75,#e6dcde);
+    width: 100%;
+    height: 27%;
+    
+    
+}
+.Separador {
+  
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    width:100%;
+    height:4%;
+    background: linear-gradient(to right,#fc8b1b ,#297d49, #14474f);
+   
+}
+.Informacoes{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.Sobre-techno {
+    margin-top: 5%;
+    border-radius: 40px ;
+    width: 90%;
+    height: 80vh;
+    background-color: #fefcfd;
+    box-shadow: 5px 10px 8px #888888;
+    display: flex;
+    flex-direction: column;
+}
+.Titulo1{
+    padding-left: 5%;
+    margin: 0%;
+    margin-top: 4%;
+    font-size: 30px;
+}
+.Conteudo{
+    padding: 1%;
+    font-size: 140%;
+    flex: 1;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+.Detalhes {
+    background: linear-gradient(to right,#fc8b1b,#297d49, #14474f);
+    width: 100%;
+    height: 9%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.caixas_informacao{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+    
+}
+.box_inf{
+    background-color: #fefcfd;
+    box-shadow: 5px 10px 8px #888888;
+    width: 25%;
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+.conteudo_box{
+    
+    font-size: 140%;
+    flex: 1;
+    
+}
+.Detalhes_box{
+    background: linear-gradient(to right,#fc8b1b ,#297d49, #14474f);
+    width: 100%;
+    height: 9%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.roda-pe{
+    width: 100%;
+    height: 15%;
+      background-image: linear-gradient(to top, #131b2a, #2c4451,#597d91, #ebe8eb); 
+}
