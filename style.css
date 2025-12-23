@@ -7,7 +7,8 @@
 body{
     background-color: #ebe8eb;
     width: 100%;
-    height: 200vh;
+     min-height: 100vh;
+    height: auto;
     margin: 0%;
 }
 .Cabesalho {
@@ -16,12 +17,37 @@ body{
     height: 40vh;
     display: flex;
     
-    
+}
+.ordem_cabesario{
+    flex-direction: column;
+    margin-left: 60vh;
+    display: flex;
+    align-items: center;
+}
+.Mark{
+    width: 94vh;
+    height: 7vh;
+    background-color: #fefefe;
+    align-items: center;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+.whats_img_cab{
+    border-radius: 100%;
+    padding: 2vh;
+    height: 15vh;
+}
+.insta_img_cab{
+    border-radius: 100%;
+    padding: 2vh;
+    height: 15vh;
+    margin-top: 4vh;
+
 }
 .LogoTipo{
-height: 27vh;
-margin-top: 5vh;
-margin-left: 5vh;
+    height: 27vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
 }
 .Separador {
   
@@ -60,7 +86,7 @@ margin-left: 5vh;
 }
 .Conteudo{
     padding: 1%;
-    font-size: 3vh;
+    font-size: 5vh;
     flex: 1;
     margin-top: 0%;
     margin-left: 6vh;
@@ -151,13 +177,12 @@ margin-left: 5vh;
     height: 80vh;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-
     flex-direction: column;
     display: flex;
 }
 .Conteudo-box{
     padding: 1%;
-    font-size: 3vh;
+    font-size: 3.5vh;
     flex: 1;
     margin-left: 6vh;
     margin-right: 4vh;
@@ -170,8 +195,6 @@ margin-left: 5vh;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-
 .contener_BoxP-img{
     
     width: 120vh;
@@ -207,14 +230,14 @@ margin-left: 5vh;
     height: 37vh;
     padding: 3vh;
     border-radius: 40px;
-    margin-right: 0.2vh;
+    margin-right: 0.6vh;
     padding-right: 1vh ;
 }
 .img-box{
      height: 36vh;
     padding: 3vh;
     border-radius: 40px;
-    margin-right: 0.5vh;
+    margin-right: 0.8vh;
     padding-right: 1vh ;
 }
 .Detalhes_box3{
@@ -241,7 +264,7 @@ margin-left: 5vh;
     padding: 2vh;
     padding-bottom: 1vh;
     border-radius: 40px;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.3vh;
     
 }
 .Detalhes_box4{
@@ -252,7 +275,69 @@ margin-left: 5vh;
     border-bottom-right-radius: 20px;
 }
 
-
+.contatos{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.orsamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #14474f;
+    font-size: 5vh;
+    margin: 2vh;
+    margin-bottom: 5vh;
+    }
+.contato_box{
+    width: 90vh;
+    height: 55vh;
+    background-color: #fefcfd;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10vh;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.imgtechno{
+    width: 100vh;
+    height: 55vh;
+    background-color: #fefcfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10vh;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.imglogoBaixo{
+    height: 35vh;
+}
+.Mark{
+    font-size: 4.5vh;
+    color: #008574;
+}
+.insta_img {
+    border-radius: 100%;
+    padding: 2vh;
+}
+.whats_img{
+    
+    border-radius: 100%;
+    padding: 2vh;
+}
+.link_cont{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+    height: 16vh;
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-left: 3vh;
+}
 .Degrade_roda-pe{
     width: 100%;
     height: 25vh;
@@ -263,11 +348,207 @@ margin-left: 5vh;
     width: 100%;
     height: 35vh;
     background-color: #201F20;
-}
-.ProdaPe{
+    font-size: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 0%;
     color: #fefcfd;
 }
+/* ===============================
+   AJUSTES PARA CELULAR
+   =============================== */
+@media (max-width: 768px) {
+       .insta_img,
+    .whats_img {
+        width: 10vh;
+        height: 10vh;
+        padding: 0;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    body {
+        height: auto;
+        overflow-x: hidden;
+    }
+      html, body {
+        overflow-x: hidden;
+    }
+
+    .Cabesalho {
+        width: 100%;
+    }
+
+    .ordem_cabesario {
+        margin-left: 0 !important;
+    }
+
+    .caixas_informacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img_box,
+    .img_box-esquerda,
+    .img-box,
+    .img-box2 {
+        height: auto;
+        max-height: 40vh;
+    }
+}
+
+
+    /* CABEÇALHO */
+    .Cabesalho {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding-bottom: 4vh;
+    }
+
+    .ordem_cabesario {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .LogoTipo {
+        height: 18vh;
+        margin: 3vh 0;
+    }
+
+    .Mark {
+        width: 90%;
+        height: auto;
+        font-size: 3vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .whats_img_cab,
+    .insta_img_cab {
+        height: 10vh;
+        margin-top: 2vh;
+    }
+
+    /* SOBRE */
+    .Sobre-techno {
+        height: auto;
+    }
+
+    .Titulo1 {
+        font-size: 3.5vh;
+    }
+
+    .Conteudo {
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    /* CAIXAS DE SERVIÇO */
+    .caixas_informacao {
+        flex-direction: column;
+        height: auto;
+        gap: 4vh;
+        margin: 0;
+    }
+
+    .box_inf {
+        width: 90%;
+        height: auto;
+    }
+
+    .img_box {
+        height: auto;
+        max-height: 40vh;
+        width: 90%;
+    }
+
+    /* BOX PERSONALIZADO */
+    .Box_personalizadas {
+        flex-direction: column;
+        height: auto;
+        gap: 4vh;
+    }
+
+    .BoxP-Texto {
+        width: 90%;
+        height: auto;
+    }
+
+    .Conteudo-box {
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    .contener_BoxP-img,
+    .contenter_box {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .BImg {
+        width: 90%;
+        height: auto;
+    }
+
+    .img_box-esquerda,
+    .img-box {
+        height: auto;
+        max-height: 30vh;
+        width: 100%;
+    }
+
+    .Box_complida {
+        width: 90%;
+        height: auto;
+    }
+
+    /* CONTATOS */
+    .contatos {
+        flex-direction: column;
+        height: auto;
+        gap: 4vh;
+    }
+
+    .contato_box,
+    .imgtechno {
+        width: 90%;
+        height: auto;
+        border-radius: 6vh;
+    }
+
+    .imglogoBaixo {
+        height: 25vh;
+    }
+
+    .link_cont {
+        font-size: 3.5vh;
+        height: auto;
+        margin: 2vh;
+        justify-content: center;
+    }
+
+    /* RODAPÉ */
+    .Informacao_rodaPe {
+        font-size: 3vh;
+        height: auto;
+        padding: 4vh;
+        text-align: center;
+    }
+}
+
 
 
 
