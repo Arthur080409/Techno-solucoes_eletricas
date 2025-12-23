@@ -7,7 +7,7 @@
 body{
     background-color: #ebe8eb;
     width: 100%;
-     min-height: 100vh;
+     min-height: 150vh;
     height: auto;
     margin: 0%;
 }
@@ -25,12 +25,18 @@ body{
     align-items: center;
 }
 .Mark{
-    width: 94vh;
+    width: 93.4vh;
     height: 7vh;
     background-color: #fefefe;
     align-items: center;
    border-top-left-radius: 50px;
    border-bottom-left-radius: 50px;
+     font-size: 4.5vh;
+    color: #008574;
+}
+.local{
+    font-size: 5vh;
+    color: #de720c;
 }
 .whats_img_cab{
     border-radius: 100%;
@@ -316,7 +322,7 @@ body{
 .imglogoBaixo{
     height: 35vh;
 }
-.Mark{
+.Mark_baixo{
     font-size: 4.5vh;
     color: #008574;
 }
@@ -360,6 +366,10 @@ body{
    AJUSTES PARA CELULAR
    =============================== */
 @media (max-width: 768px) {
+    .Mark_baixo{
+        margin-left: 10%;
+        margin-right: 10%;
+}
        .insta_img,
     .whats_img {
         width: 10vh;
@@ -530,7 +540,7 @@ body{
     }
 
     .imglogoBaixo {
-        height: 25vh;
+        height: 15vh
     }
 
     .link_cont {
