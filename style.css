@@ -38,6 +38,9 @@ body{
     font-size: 5vh;
     color: #de720c;
 }
+.link_decor{
+    text-decoration: none;
+}
 .whats_img_cab{
     border-radius: 100%;
     padding: 2vh;
@@ -160,7 +163,7 @@ body{
 .img_box{
     height: 66vh;
    border-radius: 20px;
-   margin-bottom: 2vh;
+   margin-bottom: 1vh;
    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 
    flex:1;
@@ -366,10 +369,7 @@ body{
    AJUSTES PARA CELULAR
    =============================== */
 @media (max-width: 768px) {
-    .Mark_baixo{
-        margin-left: 10%;
-        margin-right: 10%;
-}
+    
        .insta_img,
     .whats_img {
         width: 10vh;
@@ -398,6 +398,7 @@ body{
     .caixas_informacao {
         flex-direction: column;
         align-items: center;
+        padding-top: 20px;
     }
 
     @media (max-width: 768px) {
@@ -442,6 +443,7 @@ body{
         font-size: 3vh;
         text-align: center;
         padding: 2vh;
+        margin-left: 10vh;
     }
 
     .whats_img_cab,
@@ -481,6 +483,7 @@ body{
         height: auto;
         max-height: 40vh;
         width: 90%;
+        padding-left: 10px;
     }
 
     /* BOX PERSONALIZADO */
@@ -488,6 +491,7 @@ body{
         flex-direction: column;
         height: auto;
         gap: 4vh;
+        padding-top: 20px;
     }
 
     .BoxP-Texto {
@@ -524,12 +528,18 @@ body{
         width: 90%;
         height: auto;
     }
-
+    .local{
+        margin-left: 15px;
+      
+    }
     /* CONTATOS */
     .contatos {
         flex-direction: column;
         height: auto;
         gap: 4vh;
+    }
+    .contatos_numeros{
+        font-size: 20px;
     }
 
     .contato_box,
@@ -540,9 +550,15 @@ body{
     }
 
     .imglogoBaixo {
-        height: 15vh
+        height: 15vh;
+        margin-top: 10px;
     }
-
+   .Mark_baixo{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .link_cont {
         font-size: 3.5vh;
         height: auto;
